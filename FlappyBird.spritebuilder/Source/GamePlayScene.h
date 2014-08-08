@@ -22,6 +22,8 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     CCPhysicsNode* physicsNode;
 }
 
+@property int test;
+
 -(void) initialize;
 -(void) addObstacle;
 -(void) showScore;
